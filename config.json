@@ -2,5 +2,11 @@
     "title":"WaterWhisperer's Blog",
     "subTitle":"为天地立心 · 为生民立命 · 为往圣继绝学 · 为万世开太平",
     "avatarUrl":"https://avatars.githubusercontent.com/u/164724580?v=4&size=64",
-    "GMEEK_VERSION":"last"
+    "GMEEK_VERSION":"last",
+    "i18n":"CN",
+    "UTC":8,
+    "themeMode":"manual",
+    "dayTheme":"light",
+    "nightTheme":"dark_colorblind",
+    "urlMode":"pinyin"
 }
