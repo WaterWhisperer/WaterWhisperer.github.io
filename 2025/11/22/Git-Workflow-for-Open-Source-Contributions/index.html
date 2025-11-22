@@ -123,7 +123,7 @@
     
     <!--- Seo Part-->
     
-    <link rel="canonical" href="https://waterwhisperer.github.io/2025/11/16/why-rust-is-my-primary-choice/"/>
+    <link rel="canonical" href="https://waterwhisperer.github.io/2025/11/22/git-workflow-for-open-source-contributions/"/>
     <meta name="robots" content="index,follow">
     <meta name="googlebot" content="index,follow">
     <meta name="revisit-after" content="1 days">
@@ -133,16 +133,18 @@
         
         <meta name="description" content="Hexo Theme Redefine, Redefine Your Hexo Journey.">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Why Rust is My Primary Choice?">
-<meta property="og:url" content="https://waterwhisperer.github.io/2025/11/16/Why-Rust-is-My-Primary-Choice/index.html">
+<meta property="og:title" content="Git Workflow for Open Source Contributions">
+<meta property="og:url" content="https://waterwhisperer.github.io/2025/11/22/Git-Workflow-for-Open-Source-Contributions/index.html">
 <meta property="og:site_name" content="WaterWhisperer&#39;s Blog">
 <meta property="og:description" content="Hexo Theme Redefine, Redefine Your Hexo Journey.">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://waterwhisperer.github.io/images/redefine-og.webp">
-<meta property="article:published_time" content="2025-11-16T08:44:00.000Z">
-<meta property="article:modified_time" content="2025-11-20T01:33:32.020Z">
+<meta property="article:published_time" content="2025-11-22T12:21:00.000Z">
+<meta property="article:modified_time" content="2025-11-22T12:37:03.301Z">
 <meta property="article:author" content="WaterWhisperer">
-<meta property="article:tag" content="Rust">
+<meta property="article:tag" content="Git">
+<meta property="article:tag" content="Open Source">
+<meta property="article:tag" content="Version Control">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://waterwhisperer.github.io/images/redefine-og.webp">
     
@@ -156,7 +158,7 @@
     
     <title>
         
-            Why Rust is My Primary Choice? | WaterWhisperer
+            Git Workflow for Open Source Contributions | WaterWhisperer
         
     </title>
 
@@ -606,7 +608,7 @@
 		<div class="article-title relative w-full">
 			
 			<div class="w-full flex items-center pt-6 justify-start">
-				<h1 class="article-title-regular text-second-text-color tracking-tight text-4xl md:text-6xl font-semibold px-2 sm:px-6 md:px-8 py-3">Why Rust is My Primary Choice?</h1>
+				<h1 class="article-title-regular text-second-text-color tracking-tight text-4xl md:text-6xl font-semibold px-2 sm:px-6 md:px-8 py-3">Git Workflow for Open Source Contributions</h1>
 			</div>
 			
 		</div>
@@ -627,15 +629,15 @@
 					<div class="article-meta-info">
     <span class="article-date article-meta-item">
         <i class="fa-regular fa-pen-fancy"></i>&nbsp;
-        <span class="desktop">2025-11-16 16:44</span>
-        <span class="mobile">2025-11-16 16:44</span>
+        <span class="desktop">2025-11-22 20:21</span>
+        <span class="mobile">2025-11-22 20:21</span>
         <span class="hover-info">创建</span>
     </span>
     
         <span class="article-date article-meta-item">
             <i class="fa-regular fa-wrench"></i>&nbsp;
-            <span class="desktop">2025-11-20 09:33:32</span>
-            <span class="mobile">2025-11-20 09:33:32</span>
+            <span class="desktop">2025-11-22 20:37:03</span>
+            <span class="mobile">2025-11-22 20:37:03</span>
             <span class="hover-info">更新</span>
         </span>
     
@@ -647,7 +649,15 @@
             <ul>
                 
                     <li>
-                        <a href="/tags/Rust/">Rust</a>&nbsp;
+                        <a href="/tags/Git/">Git</a>&nbsp;
+                    </li>
+                
+                    <li>
+                        | <a href="/tags/Open-Source/">Open Source</a>&nbsp;
+                    </li>
+                
+                    <li>
+                        | <a href="/tags/Version-Control/">Version Control</a>&nbsp;
                     </li>
                 
             </ul>
@@ -657,12 +667,12 @@
     
     
         <span class="article-wordcount article-meta-item">
-            <i class="fa-regular fa-typewriter"></i>&nbsp;<span>459 字</span>
+            <i class="fa-regular fa-typewriter"></i>&nbsp;<span>640 字</span>
         </span>
     
     
         <span class="article-min2read article-meta-item">
-            <i class="fa-regular fa-clock"></i>&nbsp;<span>2 分钟</span>
+            <i class="fa-regular fa-clock"></i>&nbsp;<span>4 分钟</span>
         </span>
     
     
@@ -681,13 +691,76 @@
 
 
 		<div class="article-content markdown-body px-2 sm:px-6 md:px-8 pb-8">
-			<p>When many people talk about Rust, they often repeatedly mention “memory safety.” But in my opinion, this is just the tip of the iceberg of this fascinating language.</p>
-<h2 id="What-Attracts-Me-to-Rust"><a href="#What-Attracts-Me-to-Rust" class="headerlink" title="What Attracts Me to Rust"></a>What Attracts Me to Rust</h2><h3 id="Modern-Toolchain"><a href="#Modern-Toolchain" class="headerlink" title="Modern Toolchain"></a>Modern Toolchain</h3><p>I believe there’s an indisputable fact that languages that emerge later inherently benefit from the advancements of their predecessors. It’s precisely by building on the shoulders of giants that we can see further and go further. A fresh start is always more effective than piecemeal improvements.</p>
-<p>Rust’s toolchain and compiler are modern and efficient. <code>Cargo</code> enables developers to easily perform checks, tests, and builds, allowing beginners to quickly get involved in projects. Most Rust projects can be directly built and used after being cloned from GitHub. The information provided by <code>rustc</code> is incredibly detailed, completely different from the cryptic “segmentation fault” errors in C&#x2F;C++ that I encountered early on. This makes it much easier for me to identify and solve problems. Honestly, this gave me the first impression that Rust might be particularly suitable for new programmers. By the way, I’ve learned a tremendous amount from the <code>clippy</code> linter’s suggestions.</p>
-<h3 id="Vibrant-Ecosystem"><a href="#Vibrant-Ecosystem" class="headerlink" title="Vibrant Ecosystem"></a>Vibrant Ecosystem</h3><p>It might sound unusual to describe a programming language with the word ‘vitality’, but that’s exactly how Rust feels to me. Both the language itself and its ecosystem give me a sense of vibrancy and liveliness. Ten-year-old Rust is like the morning sun at 7 AM, full of promise and energy, or like myself just turning 20.</p>
-<p>Looking at this year’s Rust proposals, each one seems to directly address real pain points. Indeed, it’s remarkable that despite unresolved issues like Cargo and Rust Analyzer competing for the target directory, Rust continues to attract so many dedicated users. In terms of ecosystem, on GitHub, if you want to find projects to contribute to, I’ve found that Rust projects are among the easiest to discover, there are plenty of them, with many ‘good first issue’ labels, and both the projects and their communities are exceptionally welcoming.</p>
-<h2 id="Personal-Connection"><a href="#Personal-Connection" class="headerlink" title="Personal Connection"></a>Personal Connection</h2><p>Just as sometimes there’s no specific reason for liking someone, for me, it’s the same with a programming language. People might point out Rust’s flaws or suggest that other languages are superior, but that doesn’t change how I feel. I enjoy using Rust because of a deep sense of compatibility—it feels like the ‘right fit’ for me. This is a feeling that programming with other languages simply doesn’t provide.</p>
-<h2 id="Looking-Forward"><a href="#Looking-Forward" class="headerlink" title="Looking Forward"></a>Looking Forward</h2><p>I genuinely hope Rust continues to evolve and improve, that more people discover and learn Rust, and that increasingly more projects adopt this wonderful language. The future looks bright for Rust, and I’m excited to be part of this journey.</p>
+			<p>Effective Git usage is fundamental to successful open source contributions. A well-structured workflow not only boosts productivity but also ensures clean project history and smooth collaboration with maintainers. In this article, I’ll share a Git workflow that has consistently worked well for my open source contributions.</p>
+<h2 id="Initial-Setup"><a href="#Initial-Setup" class="headerlink" title="Initial Setup"></a>Initial Setup</h2><p>After forking a project on GitHub or similar platforms, the first step is to clone your forked repository to your local machine:</p>
+<div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/your-username/project-name.git</span><br><span class="line"><span class="built_in">cd</span> project-name</span><br></pre></td></tr></table></figure></div>
+
+<h2 id="Development-Branch-Strategy"><a href="#Development-Branch-Strategy" class="headerlink" title="Development Branch Strategy"></a>Development Branch Strategy</h2><p>Working directly on the main branch is discouraged as it can lead to conflicts and messy history. Instead, create a dedicated branch for your work:</p>
+<div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git checkout -b feature/your-feature-name</span><br></pre></td></tr></table></figure></div>
+
+<p>Choose descriptive branch names that clearly indicate the purpose of your work. Good examples include <code>feature/user-authentication</code>, <code>fix/typo-in-readme</code>, or <code>docs/update-installation-guide</code>.</p>
+<h2 id="Committing-Your-Changes"><a href="#Committing-Your-Changes" class="headerlink" title="Committing Your Changes"></a>Committing Your Changes</h2><p>When you’ve made your changes, use <code>git add</code> to stage them and <code>git commit</code> to commit:</p>
+<div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git add .</span><br><span class="line">git commit -m <span class="string">&quot;feat: add user authentication system&quot;</span></span><br></pre></td></tr></table></figure></div>
+
+<p>I strongly recommend following the <a class="link"   target="_blank" rel="noopener" href="https://www.conventionalcommits.org/" >Conventional Commits<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a> specification for commit messages. This makes the commit history more readable and helps with automated versioning.</p>
+<h2 id="When-Your-Work-Gets-Merged"><a href="#When-Your-Work-Gets-Merged" class="headerlink" title="When Your Work Gets Merged"></a>When Your Work Gets Merged</h2><p>Once your contribution is accepted and merged, it’s time to clean up your local environment:</p>
+<div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Delete the local development branch</span></span><br><span class="line">git branch -D feature/your-feature-name</span><br><span class="line"></span><br><span class="line"><span class="comment"># Delete the remote branch (if you pushed it to your fork)</span></span><br><span class="line">git push origin --delete feature/your-feature-name</span><br><span class="line"></span><br><span class="line"><span class="comment"># Update your main branch to stay synchronized</span></span><br><span class="line">git checkout main</span><br><span class="line">git pull upstream main</span><br></pre></td></tr></table></figure></div>
+
+<h2 id="Handling-Requested-Changes-and-Rebasing"><a href="#Handling-Requested-Changes-and-Rebasing" class="headerlink" title="Handling Requested Changes and Rebasing"></a>Handling Requested Changes and Rebasing</h2><p>This phase often challenges contributors. When maintainers request modifications or you need to rebase onto newer code, here’s an efficient approach:</p>
+<p>Rather than accumulating multiple commits and later squashing them with interactive rebase, I prefer this streamlined workflow:</p>
+<ol>
+<li><p><strong>Fetch the latest changes</strong>:</p>
+<div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git fetch --all</span><br></pre></td></tr></table></figure></div>
+
+<p>Or more targeted:</p>
+<div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git fetch upstream</span><br></pre></td></tr></table></figure></div>
+
+<p>I prefer the targeted approach and configure my local repository to fetch only the main branch from upstream:</p>
+<div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config --edit --<span class="built_in">local</span></span><br></pre></td></tr></table></figure></div>
+
+<p>Add this configuration:</p>
+<div class="code-container" data-rel="Ini"><figure class="iseeu highlight ini"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="section">[remote &quot;upstream&quot;]</span></span><br><span class="line"><span class="attr">fetch</span> = +refs/heads/main:refs/remotes/upstream/main</span><br></pre></td></tr></table></figure></div>
+
+<p>This configuration is efficient since most development occurs on the main branch.</p>
+</li>
+<li><p><strong>Rebase onto the latest upstream</strong>:</p>
+<div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git rebase upstream/main</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p><strong>Resolve any conflicts</strong>:</p>
+<ul>
+<li><p>Address conflicts as they arise in your code</p>
+</li>
+<li><p>After resolution, continue the rebase process:</p>
+<div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git rebase --<span class="built_in">continue</span></span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p>If you encounter complex issues, abort and reassess:</p>
+<div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git rebase --abort</span><br></pre></td></tr></table></figure></div></li>
+</ul>
+</li>
+<li><p><strong>Incorporate new changes</strong>:<br>After implementing the requested modifications, amend your existing commit rather than creating a new one:</p>
+<div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git add .</span><br><span class="line">git commit --amend --no-edit</span><br></pre></td></tr></table></figure></div>
+
+<p>Use <code>--no-edit</code> to preserve your original commit message, or omit it if you need to update the message.</p>
+</li>
+<li><p><strong>Force push your changes</strong>:<br>Since rebasing rewrites commit history, you’ll need to force push:</p>
+<div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push -f</span><br></pre></td></tr></table></figure></div>
+
+<p>For added safety, use:</p>
+<div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push --force-with-lease</span><br></pre></td></tr></table></figure></div>
+
+<p>This prevents accidentally overwriting others’ work.</p>
+</li>
+</ol>
+<h2 id="Benefits-of-This-Workflow"><a href="#Benefits-of-This-Workflow" class="headerlink" title="Benefits of This Workflow"></a>Benefits of This Workflow</h2><p>This approach provides several key advantages:</p>
+<ul>
+<li><strong>Clean commit history</strong>: Each feature or fix remains as a single, well-structured commit</li>
+<li><strong>Streamlined conflict resolution</strong>: Conflicts are addressed during rebase rather than merge</li>
+<li><strong>Current codebase</strong>: You consistently work with the latest upstream changes</li>
+<li><strong>Reduced commit clutter</strong>: Avoids accumulating minor “fix typo” or “address feedback” commits</li>
+<li><strong>Maintainer-friendly</strong>: Provides a clean, linear history that’s easier to review</li>
+</ul>
+<h2 id="Conclusion"><a href="#Conclusion" class="headerlink" title="Conclusion"></a>Conclusion</h2><p>This Git workflow has proven effective across numerous open source contributions. It maintains clean commit history, simplifies conflict resolution, and keeps your work synchronized with upstream developments. While it requires familiarity with force pushing and rebasing, the improvements in code quality and collaboration efficiency make the learning curve worthwhile.</p>
+<p>Consistency is crucial, so apply this workflow for each iteration of improvements until your contribution is successfully merged or the pull request is closed. With practice, this approach becomes second nature and significantly enhances your open source contribution experience.</p>
 
 		</div>
 
@@ -695,18 +768,18 @@
 		<div class="post-copyright-info w-full my-8 px-2 sm:px-6 md:px-8">
 			<div class="article-copyright-info-container">
     <ul>
-        <li><strong>标题:</strong> Why Rust is My Primary Choice?</li>
+        <li><strong>标题:</strong> Git Workflow for Open Source Contributions</li>
         <li><strong>作者:</strong> WaterWhisperer</li>
         <li><strong>创建于
-                :</strong> 2025-11-16 16:44:00</li>
+                :</strong> 2025-11-22 20:21:00</li>
         
             <li>
                 <strong>更新于
-                    :</strong> 2025-11-20 09:33:32
+                    :</strong> 2025-11-22 20:37:03
             </li>
         
         <li>
-            <strong>链接:</strong> https://waterwhisperer.github.io/2025/11/16/Why-Rust-is-My-Primary-Choice/
+            <strong>链接:</strong> https://waterwhisperer.github.io/2025/11/22/Git-Workflow-for-Open-Source-Contributions/
         </li>
         <li>
             <strong>
@@ -728,7 +801,15 @@
 		<ul class="post-tags-box text-lg mt-1.5 flex-wrap justify-center flex md:hidden">
 			
 			<li class="tag-item mx-0.5">
-				<a href="/tags/Rust/">#Rust</a>&nbsp;
+				<a href="/tags/Git/">#Git</a>&nbsp;
+			</li>
+			
+			<li class="tag-item mx-0.5">
+				<a href="/tags/Open-Source/">#Open Source</a>&nbsp;
+			</li>
+			
+			<li class="tag-item mx-0.5">
+				<a href="/tags/Version-Control/">#Version Control</a>&nbsp;
 			</li>
 			
 		</ul>
@@ -739,18 +820,18 @@
 		
 		<div class="article-nav my-8 flex justify-between items-center px-2 sm:px-6 md:px-8">
 			
-			<div class="article-prev border-border-color shadow-redefine-flat shadow-shadow-color-2 rounded-medium px-4 py-2 hover:shadow-redefine-flat-hover hover:shadow-shadow-color-2">
-				<a class="prev" rel="prev" href="/2025/11/22/Git-Workflow-for-Open-Source-Contributions/">
-					<span class="left arrow-icon flex justify-center items-center">
-						<i class="fa-solid fa-chevron-left"></i>
-					</span>
+			
+			<div class="article-next border-border-color shadow-redefine-flat shadow-shadow-color-2 rounded-medium px-4 py-2 hover:shadow-redefine-flat-hover hover:shadow-shadow-color-2">
+				<a class="next" rel="next" href="/2025/11/16/Why-Rust-is-My-Primary-Choice/">
 					<span class="title flex justify-center items-center">
-						<span class="post-nav-title-item truncate max-w-48">Git Workflow for Open Source Contributions</span>
-						<span class="post-nav-item">上一篇</span>
+						<span class="post-nav-title-item truncate max-w-48">Why Rust is My Primary Choice?</span>
+						<span class="post-nav-item">下一篇</span>
+					</span>
+					<span class="right arrow-icon flex justify-center items-center">
+						<i class="fa-solid fa-chevron-right"></i>
 					</span>
 				</a>
 			</div>
-			
 			
 		</div>
 		
@@ -805,8 +886,8 @@
 		<div class="post-toc-wrap">
 	<div class="post-toc">
 		<div class="toc-title">目录</div>
-		<div class="page-title">Why Rust is My Primary Choice?</div>
-		<ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#What-Attracts-Me-to-Rust"><span class="nav-text">What Attracts Me to Rust</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Modern-Toolchain"><span class="nav-text">Modern Toolchain</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Vibrant-Ecosystem"><span class="nav-text">Vibrant Ecosystem</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Personal-Connection"><span class="nav-text">Personal Connection</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Looking-Forward"><span class="nav-text">Looking Forward</span></a></li></ol>
+		<div class="page-title">Git Workflow for Open Source Contributions</div>
+		<ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Initial-Setup"><span class="nav-text">Initial Setup</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Development-Branch-Strategy"><span class="nav-text">Development Branch Strategy</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Committing-Your-Changes"><span class="nav-text">Committing Your Changes</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#When-Your-Work-Gets-Merged"><span class="nav-text">When Your Work Gets Merged</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Handling-Requested-Changes-and-Rebasing"><span class="nav-text">Handling Requested Changes and Rebasing</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Benefits-of-This-Workflow"><span class="nav-text">Benefits of This Workflow</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Conclusion"><span class="nav-text">Conclusion</span></a></li></ol>
 
 	</div>
 </div>
