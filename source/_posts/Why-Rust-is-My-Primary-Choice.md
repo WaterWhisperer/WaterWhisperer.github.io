@@ -1,0 +1,28 @@
+---
+title: Why Rust is My Primary Choice?
+date: 2025-11-16 16:44:00
+tags: [Rust]
+---
+When many people talk about Rust, they often repeatedly mention "memory safety." But in my opinion, this is just the tip of the iceberg of this fascinating language.
+
+## What Attracts Me to Rust
+
+### Modern Toolchain
+
+I believe there's an indisputable fact that languages that emerge later inherently benefit from the advancements of their predecessors. It's precisely by building on the shoulders of giants that we can see further and go further. A fresh start is always more effective than piecemeal improvements.
+
+Rust's toolchain and compiler are modern and efficient. `Cargo` enables developers to easily perform checks, tests, and builds, allowing beginners to quickly get involved in projects. Most Rust projects can be directly built and used after being cloned from GitHub. The information provided by `rustc` is incredibly detailed, completely different from the cryptic "segmentation fault" errors in C/C++ that I encountered early on. This makes it much easier for me to identify and solve problems. Honestly, this gave me the first impression that Rust might be particularly suitable for new programmers. By the way, I've learned a tremendous amount from the `clippy` linter's suggestions.
+
+### Vibrant Ecosystem
+
+It might sound unusual to describe a programming language with the word 'vitality', but that's exactly how Rust feels to me. Both the language itself and its ecosystem give me a sense of vibrancy and liveliness. Ten-year-old Rust is like the morning sun at 7 AM, full of promise and energy, or like myself just turning 20.
+
+Looking at this year's Rust proposals, each one seems to directly address real pain points. Indeed, it's remarkable that despite unresolved issues like Cargo and Rust Analyzer competing for the target directory, Rust continues to attract so many dedicated users. In terms of ecosystem, on GitHub, if you want to find projects to contribute to, I've found that Rust projects are among the easiest to discover, there are plenty of them, with many 'good first issue' labels, and both the projects and their communities are exceptionally welcoming.
+
+## Personal Connection
+
+Just as sometimes there's no specific reason for liking someone, for me, it's the same with a programming language. People might point out Rust's flaws or suggest that other languages are superior, but that doesn't change how I feel. I enjoy using Rust because of a deep sense of compatibility—it feels like the 'right fit' for me. This is a feeling that programming with other languages simply doesn't provide.
+
+## Looking Forward
+
+I genuinely hope Rust continues to evolve and improve, that more people discover and learn Rust, and that increasingly more projects adopt this wonderful language. The future looks bright for Rust, and I'm excited to be part of this journey.
