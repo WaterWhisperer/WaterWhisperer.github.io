@@ -11,7 +11,7 @@
 # Docs: https://redefine-docs.ohevan.com/basic/info
 info:
   # Site title
-  title: WaterWhisperer
+  title: WaterWhisperer's Blog
   # Site subtitle
   subtitle: 
   # Author name
@@ -134,7 +134,7 @@ home_banner:
     light: /images/wallhaven-wqery6-light.webp # light mode
     dark: /images/wallhaven-wqery6-dark.webp # dark mode
   # Home banner title
-  title: WaterWhisperer's Blog
+  title: WaterWhisperer
   # Home banner subtitle
   subtitle:
     text: [
@@ -183,6 +183,8 @@ home_banner:
     links:
       - icon: github
         url: https://github.com/WaterWhisperer
+      - icon: zhihu
+        url: https://www.zhihu.com/people/qing-yu-43-83-16
       - icon: twitter
         url:
       - icon: email
@@ -228,7 +230,7 @@ navbar:
     About:
       icon: fa-regular fa-user
       submenus:
-        My Friends: /friends
+        Friends: /friends
     Links: 
       icon: fa-regular fa-link
       submenus:
@@ -313,7 +315,7 @@ articles:
   author_label: 
     enable: true # Whether to enable
     auto: false # Whether to automatically add author label, e.g. Lv1, Lv2, Lv3...
-    list: []
+    list: ["Rustacean"]
   # Code block settings
   code_block:
     copy: true # Whether to enable code block copy button
@@ -408,7 +410,7 @@ footer:
   # Show website running time
   runtime: true # show website running time or not
   # Icon in footer, write fontawesome icon code here
-  icon: '<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s; color: #f54545"></i>'
+  icon: '<span class="fa-bounce" aria-label="Ferris" title="Ferris" style="--fa-animation-duration: 1.2s; color: #A31F34">🦀</span>'
   # The start time of the website, format: YYYY/MM/DD HH:mm:ss
   start: 2025/11/16 16:00:00
   # Site statistics
